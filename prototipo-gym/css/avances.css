@@ -1,0 +1,79 @@
+/* Estilos del menú */
+#mySidenav i{
+    margin-left: 20%;
+}
+body{
+    background-color: #f1f3f9;
+}
+.cerrar{
+margin-top: 220px;
+color: #000000;
+margin-left: 100px;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #3f4464;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 2;
+}
+
+.sidenav a {
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+    
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 5px;
+    color: #000000;
+    right: 0;
+    margin:  0 20px;
+}
+nav{
+    background-color:  #3f4464;
+    padding: 27px;
+    width: 310px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+figure img{
+    height: 37px;
+    height: 37px;
+    position: relative;
+    right: 40px;
+    bottom: 72px;
+}
+
+
+.img{
+    height: 200px;
+    height: 200px;
+    position: relative;
+    left: 70px;
+
+}
+

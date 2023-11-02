@@ -1,0 +1,126 @@
+
+#mySidenav i{
+    margin-left: 20%;
+}
+body{
+    background-color: #f1f3f9;
+    height: 10%;
+}
+.cerrar{
+margin-top: 220px;
+color: #000000;
+margin-left: 100px;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #3f4464;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 2;
+}
+
+.sidenav a {
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+    
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 5px;
+    color: #000000;
+    right: 0;
+    margin:  0 20px;
+}
+nav{
+    background-color:  #3f4464;
+    padding: 27px;
+    width: 310px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+figure img{
+    height: 37px;
+    height: 37px;
+    position: relative;
+    right: 40px;
+    bottom: 72px;
+}
+/** codigo-------------------------------------------.letra{
+    position: relative;
+    top: 50px;
+    left: 45px;
+}
+.principal{
+    position: absolute;
+    bottom: 120px;
+    left: 40px;
+}**/
+
+.rutina{
+    background-color: #3f4464;
+    height: 220px;
+    width: 300px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+.contenedor{
+    background-color: #fff;
+    padding: 20px;
+    height: 1090px;
+    width: 300px;
+    position: relative;
+    bottom: 60px;
+    border-radius: 10px;
+}
+.titulo-p{
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+
+}
+.rutina1{
+    background-color: #3f4464;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+p{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+button{
+    width: 300px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    background-color: #ffc857;
+    border-radius: 10px;
+}
+
+
